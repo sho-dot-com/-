@@ -1,3 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+
 .off-screen-menu {
   background-color: rgb(224, 199, 210);
   height: 100vh;
@@ -38,6 +48,15 @@ nav {
   left: 50%;
   transform: translate(-50%, -50%);
   transition: 0.3s ease;
+}
+.right-block-header {
+  font-size:  60px;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+ 
+  align-items: center;
 }
 .ham-menu span:nth-child(1) {
   top: 25%;
@@ -197,7 +216,10 @@ text-align: center;
         width: 678px;
         border-radius: 10px;
         background: rgba(235, 235, 235, 1);
+
       }
+
+     
       .bottom-div {
         display: flex;
         margin-top: 90px;
