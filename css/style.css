@@ -10,10 +10,10 @@ a {
 .off-screen-menu {
   background-color: rgb(224, 199, 210);
   height: 100vh;
-  width: 100%;
+  width: 50%;
   max-width: 450px;
   position: fixed;
-  top: 0;
+  top: 10;
   right: -450px;
   display: flex;
   flex-direction: column;
@@ -252,7 +252,7 @@ nav {
 .left-img {
   justify-content: space-between;
   margin-top: 41px;
-  position: relative;
+  
 }
 
 .kids3 {
